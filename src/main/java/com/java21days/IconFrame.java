@@ -3,12 +3,6 @@
  */
 package com.java21days;
 
-import java.awt.Dimension;
-import java.awt.HeadlessException;
-import java.awt.MediaTracker;
-import java.net.MalformedURLException;
-import java.net.URL;
-
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -24,10 +18,9 @@ public class IconFrame extends JFrame {
 	
 	/**
 	 * @param title
-	 * @throws HeadlessException
 	 */
 	public IconFrame() {
-		super("Bolleaux");
+		super("Icon Frame");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		JPanel panel = new JPanel();
 		// create icons
