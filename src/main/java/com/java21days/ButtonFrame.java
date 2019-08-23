@@ -14,6 +14,10 @@ import javax.swing.UIManager;
  */
 public class ButtonFrame extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	JButton load = new JButton("Load");
 	JButton save = new JButton("Save");
 	JButton unsubscribe = new JButton("Unsubscribe");

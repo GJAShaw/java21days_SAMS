@@ -13,6 +13,11 @@ import javax.swing.UIManager;
 public class SimpleFrame extends JFrame {
 
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public SimpleFrame() {
 		super("Frame Title");
 		setSize(300, 100);
