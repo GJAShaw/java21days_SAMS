@@ -3,8 +3,6 @@
  */
 package com.java21days;
 
-import java.awt.HeadlessException;
-
 import javax.swing.*;
 
 /**
