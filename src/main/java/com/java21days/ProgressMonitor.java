@@ -20,7 +20,7 @@ public class ProgressMonitor extends JFrame {
 		setSize(205, 68);
 		setLayout(new FlowLayout());
 		current = new JProgressBar(MIN, MAX);
-		current.setValue(0);
+		current.setValue(MIN);
 		current.setStringPainted(true);
 		add(current);
 	}
