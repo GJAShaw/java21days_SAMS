@@ -45,7 +45,9 @@ public class FeedInfo extends JFrame {
 		type = new JTextField(choices[response3], 20);
 
 		// display choices
-		setLayout(new GridLayout(3, 2));
+		final int ROWS = 3;
+		final int COLUMNS = 2;
+		setLayout(new GridLayout(ROWS, COLUMNS));
 		add(nameLabel);
 		add(name);
 		add(urlLabel);
