@@ -27,6 +27,7 @@ public class ButtonFrame extends JFrame {
 		super("Button Frame");
 		setSize(340, 170);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLookAndFeel();
 		JPanel pane = new JPanel();
 		pane.add(load);
 		pane.add(save);
@@ -51,7 +52,6 @@ public class ButtonFrame extends JFrame {
 	 */
 	public static void main(String[] args) {
 
-		setLookAndFeel();
 		ButtonFrame bf = new ButtonFrame();
 		bf.unsubscribe.setEnabled(false);
 
