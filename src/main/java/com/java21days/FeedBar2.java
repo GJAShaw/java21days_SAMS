@@ -7,7 +7,7 @@ public class FeedBar2 extends JFrame {
 
 	
 	public FeedBar2() {
-		super("FeedBar 2");
+		super("Feed Bar 2");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLookAndFeel();
 		
