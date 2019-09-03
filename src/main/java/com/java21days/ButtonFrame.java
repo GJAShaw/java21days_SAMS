@@ -6,6 +6,7 @@ package com.java21days;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
 /**
@@ -34,12 +35,13 @@ public class ButtonFrame extends JFrame {
 		setVisible(true);
 	}
 
-	private static void setLookAndFeel() {
+	private void setLookAndFeel() {
 		
 		try {
 			UIManager.setLookAndFeel("com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel");
+			SwingUtilities.updateComponentTreeUI(this);
 		} catch (Exception exc) {
-			System.out.println(exc.getMessage());
+			System.err.println("Couldn't use the system look and feel: " + exc);
 		}
 
 	}
